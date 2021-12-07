@@ -13,7 +13,6 @@ function App() {
     initTodos = JSON.parse(localStorage.getItem("todos"));
   }
   const onDelete = (todo) => {
-    console.log("Fuck" + todo.title);
     // let index = todos.indexOf(todo);
     // todos.splice(index, 1);
     setTodos(
